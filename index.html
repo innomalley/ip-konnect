@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>ipkonnect | Home</title>
 </head>
 <body>
@@ -10,15 +11,35 @@
     <h1>Hello World</h1>
     <p>Welcome to the ipkonnect homepage!</p>
 
-    <table>
-        <tr>Majina ya watuhumiwa</tr>
-        <tr>
-            <td>John Doe</td>
-            <td>Jane Smith</td>
-            <td>Michael Johnson</td>
-        </tr>
-
-    </table>
+    <div class="table-container">
+        <table class="nice-table" aria-label="Users table">
+            <caption>Majina ya watuhumiwa</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>john@example.com</td>
+                    <td><span class="status">Active</span></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>jane@example.com</td>
+                    <td><span class="status">Pending</span></td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>michael@example.com</td>
+                    <td><span class="status">Active</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
 </body>
 </html>
