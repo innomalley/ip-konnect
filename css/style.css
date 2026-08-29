@@ -27,7 +27,7 @@ h1 {
 
 /* Table styles: modern, responsive, accessible */
 .table-container {
-    max-width: 100%;
+    max-width: 500%;
     overflow-x: auto;
     margin: 2rem 0;
     border-radius: 12px;
